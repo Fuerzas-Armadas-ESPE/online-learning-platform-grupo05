@@ -1,8 +1,14 @@
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
+
+
 
 const Home = () => {
   return (
+    <>
+
+    <Navbar></Navbar>
     <div style={{ padding: "20px" }}>
       <h1>Welcome to Online Learning Platform</h1>
       <p>Start your learning journey today!</p>
@@ -13,6 +19,8 @@ const Home = () => {
         <p>© 2024 Online Learning Platform. All rights reserved.</p>
       </footer>
     </div>
+    
+    </>
   );
 };
 
